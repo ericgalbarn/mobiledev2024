@@ -1,6 +1,5 @@
-USTH ICT Android Development 2024
-========================================
+# USTH ICT Android Development 2024
 
-* **Your ID**
-* **Your name**
-* **Your class**
+- **22BI13092**
+- **Nguyễn Minh Đức**
+- **ICT Class 1**
