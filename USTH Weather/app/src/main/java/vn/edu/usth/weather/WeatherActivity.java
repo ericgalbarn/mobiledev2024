@@ -1,7 +1,6 @@
 package vn.edu.usth.weather;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentTransaction;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -18,9 +17,8 @@ public class WeatherActivity extends AppCompatActivity {
         ForecastFragment firstFragment = new ForecastFragment();
 
         // Add the fragment to the 'container' FrameLayout
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.add(R.id.container, firstFragment);
-        transaction.commit();
+        getSupportFragmentManager().beginTransaction()
+                .add(R.id.container, firstFragment).commit();
     }
 
     @Override
