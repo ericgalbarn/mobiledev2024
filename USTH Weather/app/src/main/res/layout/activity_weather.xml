@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".WeatherActivity">
 
+    <!-- AppBar with Toolbar -->
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -22,16 +23,30 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+    <!-- ScrollView to hold fragments -->
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
-        <FrameLayout
-            android:id="@+id/container"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
+            <!-- WeatherFragment (Green Area) -->
+            <fragment
+                android:id="@+id/weather_fragment"
+                android:name="vn.edu.usth.weather.WeatherFragment"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" /> <!-- Adjust height as necessary -->
+
+            <!-- ForecastFragment (Existing Component) -->
+            <FrameLayout
+                android:id="@+id/container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
     </androidx.core.widget.NestedScrollView>
-
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
