@@ -13,7 +13,6 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Repeat this block for each day -->
         <!-- Monday -->
         <TextView
             android:layout_width="match_parent"
@@ -47,7 +46,6 @@
                 android:text="24°C - 31°C"
                 android:textSize="16sp"/>
         </LinearLayout>
-        <!-- End of day block -->
         <!-- Tuesday -->
 
         <TextView
@@ -247,7 +245,5 @@
                 android:text="10°C - 15°C"
                 android:textSize="16sp"/>
         </LinearLayout>
-        <!-- Repeat the above block for Tue, Wed, Thu, Fri, Sat, Sun -->
-
     </LinearLayout>
 </LinearLayout>

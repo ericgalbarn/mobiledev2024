@@ -3,9 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#DFFFD6"> <!-- Light green background -->
+    android:background="#DFFFD6">
 
-    <!-- Temperature and Weather Info -->
     <TextView
         android:id="@+id/weather_info"
         android:layout_width="wrap_content"
@@ -17,7 +16,6 @@
         android:layout_marginTop="16dp"
         android:textColor="#000" />
 
-    <!-- Location -->
     <TextView
         android:id="@+id/weather_location"
         android:layout_width="wrap_content"
@@ -29,12 +27,12 @@
         android:layout_marginTop="16dp"
         android:textColor="#666" />
 
-    <!-- Weather Icon (Cloud) -->
+
     <ImageView
         android:id="@+id/weather_icon"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:layout_centerInParent="true"
-        android:src="@drawable/cloud" /> <!-- Replace with your actual icon -->
+        android:src="@drawable/cloud" />
 
 </RelativeLayout>
