@@ -4,246 +4,246 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#2000FFFF"
+    android:background="@color/background_light_blue"
     tools:context=".ForecastFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="16dp">
+        android:padding="@dimen/padding_large">
 
         <!-- Monday -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Mon"
-            android:textSize="18sp"
-            android:padding="8dp"/>
+            android:text="@string/monday"
+            android:textSize="@dimen/text_size_large"
+            android:padding="@dimen/padding_small"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="@dimen/padding_small">
 
             <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
                 android:src="@drawable/ic_partly_cloudy"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Partly Cloudy"
-                android:textSize="16sp"
-                android:layout_marginLeft="8dp"/>
+                android:text="@string/partly_cloudy"
+                android:textSize="@dimen/text_size_medium"
+                android:layout_marginLeft="@dimen/padding_small"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="24°C - 31°C"
-                android:textSize="16sp"/>
+                android:text="@string/temp_mon"
+                android:textSize="@dimen/text_size_medium"/>
         </LinearLayout>
         <!-- Tuesday -->
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tue"
-            android:textSize="18sp"
-            android:padding="8dp"/>
+            android:text="@string/tuesday"
+            android:textSize="@dimen/text_size_large"
+            android:padding="@dimen/padding_small"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="@dimen/padding_small">
 
             <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
                 android:src="@drawable/rainy"/>
 
             <TextView
-                android:layout_width="0dp"
+                android:layout_width="235dp"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_small"
                 android:layout_weight="1"
-                android:text="Rainy"
-                android:textSize="16sp"
-                android:layout_marginLeft="8dp"/>
+                android:text="@string/rainy"
+                android:textSize="@dimen/text_size_medium" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="20°C - 23°C"
-                android:textSize="16sp"/>
+                android:text="@string/temp_tue"
+                android:textSize="@dimen/text_size_medium"/>
         </LinearLayout>
         <!-- Wednesday -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Wed"
-            android:textSize="18sp"
-            android:padding="8dp"/>
+            android:text="@string/wednesday"
+            android:textSize="@dimen/text_size_large"
+            android:padding="@dimen/padding_small"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="@dimen/padding_small">
 
             <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
                 android:src="@drawable/ic_partly_cloudy"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Partly Cloudy"
-                android:textSize="16sp"
-                android:layout_marginLeft="8dp"/>
+                android:text="@string/partly_cloudy"
+                android:textSize="@dimen/text_size_medium"
+                android:layout_marginLeft="@dimen/padding_small"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="22°C - 29°C"
-                android:textSize="16sp"/>
+                android:text="@string/temp_wed"
+                android:textSize="@dimen/text_size_medium"/>
         </LinearLayout>
         <!--Thursday-->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Thu"
-            android:textSize="18sp"
-            android:padding="8dp"/>
+            android:text="@string/thursday"
+            android:textSize="@dimen/text_size_large"
+            android:padding="@dimen/padding_small"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="@dimen/padding_small">
 
             <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
                 android:src="@drawable/sunny"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Sunny"
-                android:textSize="16sp"
-                android:layout_marginLeft="8dp"/>
+                android:text="@string/sunny"
+                android:textSize="@dimen/text_size_medium"
+                android:layout_marginLeft="@dimen/padding_small"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="30°C - 37°C"
-                android:textSize="16sp"/>
+                android:text="@string/temp_thu"
+                android:textSize="@dimen/text_size_medium"/>
         </LinearLayout>
         <!-- Friday -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Fri"
-            android:textSize="18sp"
-            android:padding="8dp"/>
+            android:text="@string/friday"
+            android:textSize="@dimen/text_size_large"
+            android:padding="@dimen/padding_small"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="@dimen/padding_small">
 
             <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
                 android:src="@drawable/windy"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Windy"
-                android:textSize="16sp"
-                android:layout_marginLeft="8dp"/>
+                android:text="@string/windy"
+                android:textSize="@dimen/text_size_medium"
+                android:layout_marginLeft="@dimen/padding_small"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="19°C - 22°C"
-                android:textSize="16sp"/>
+                android:text="@string/temp_fri"
+                android:textSize="@dimen/text_size_medium"/>
         </LinearLayout>
         <!-- Saturday -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sat"
-            android:textSize="18sp"
-            android:padding="8dp"/>
+            android:text="@string/saturday"
+            android:textSize="@dimen/text_size_large"
+            android:padding="@dimen/padding_small"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="@dimen/padding_small">
 
             <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
                 android:src="@drawable/cloud"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Cloudy"
-                android:textSize="16sp"
-                android:layout_marginLeft="8dp"/>
+                android:text="@string/cloudy"
+                android:textSize="@dimen/text_size_medium"
+                android:layout_marginLeft="@dimen/padding_small"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="23°C - 28°C"
-                android:textSize="16sp"/>
+                android:text="@string/temp_sat"
+                android:textSize="@dimen/text_size_medium"/>
         </LinearLayout>
         <!-- Sunday -->
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Sun"
-            android:textSize="18sp"
-            android:padding="8dp"/>
+            android:text="@string/sunday"
+            android:textSize="@dimen/text_size_large"
+            android:padding="@dimen/padding_small"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:padding="8dp">
+            android:padding="@dimen/padding_small">
 
             <ImageView
-                android:layout_width="48dp"
-                android:layout_height="48dp"
+                android:layout_width="@dimen/icon_size"
+                android:layout_height="@dimen/icon_size"
                 android:src="@drawable/rainy"/>
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Rainy"
-                android:textSize="16sp"
-                android:layout_marginLeft="8dp"/>
+                android:text="@string/cloudy"
+                android:textSize="@dimen/text_size_medium"
+                android:layout_marginLeft="@dimen/padding_small"/>
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="10°C - 15°C"
-                android:textSize="16sp"/>
+                android:text="@string/temp_sun"
+                android:textSize="@dimen/text_size_medium"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
